@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Photos sources brutes (lourdes, non utilisées par le site)
+assets/originals/
+
+# Netlify
+.netlify/
+
+# Editor
+.vscode/
+.idea/
