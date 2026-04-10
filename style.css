@@ -294,15 +294,15 @@ section { padding: var(--section-y) 0; position: relative; }
   object-position: center 35%;
   transform: translateY(0) scale(1.05);
   will-change: transform;
-  filter: brightness(0.65) saturate(1.05);
+  filter: brightness(0.92) saturate(1.08);
 }
 .hero::after {
   content: "";
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 30% 40%, rgba(8,65,56,0.45) 0%, rgba(8,65,56,0.85) 65%),
-    linear-gradient(180deg, rgba(8,65,56,0.35) 0%, rgba(5,46,39,0.92) 100%);
+    radial-gradient(ellipse at 30% 40%, rgba(8,65,56,0.18) 0%, rgba(8,65,56,0.55) 70%),
+    linear-gradient(180deg, rgba(8,65,56,0.10) 0%, rgba(5,46,39,0.72) 100%);
   z-index: 1;
 }
 .hero-inner {
@@ -330,13 +330,14 @@ section { padding: var(--section-y) 0; position: relative; }
 .hero h1 .script-accent {
   display: block;
   font-family: var(--font-script);
-  font-size: 0.42em;
+  font-size: 0.55em;
   color: var(--brass);
   text-transform: none;
   letter-spacing: 0;
-  margin-bottom: -0.35em;
+  margin-bottom: 0.15em;
   margin-left: 0.4em;
   transform: rotate(-2deg);
+  text-shadow: 0 2px 18px rgba(0,0,0,0.55), 0 1px 2px rgba(0,0,0,0.4);
 }
 /* Mots du h1 — reveal stagger lettre par lettre */
 .hero h1 .word {
